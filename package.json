@@ -1,7 +1,7 @@
 {
-    "name": "Html-Css-Learning",
+    "name": "html-css-learning",
     "version": "0.0.1",
-    "description": "A demo project for testing and implementing css.",
+    "description": "A demo project for testing and implementing & learning css.",
     "keywords": [
         "html",
         "css",
@@ -12,11 +12,11 @@
     "scripts": {
         "build": "parcel build index.html",
         "dev": "parcel index.html --open",
+        "sass": "sass --watch ./sass/style.scss:./css/style.css",
         "start": "npm run build && npm run dev",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "devDependencies": {
         "parcel-bundler": "^1.12.4"
-    },
-    "dependencies": {}
+    }
 }
